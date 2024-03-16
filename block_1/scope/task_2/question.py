@@ -12,3 +12,10 @@ def transmit_to_space(message):
 
 
 print(transmit_to_space("Test message"))
+
+"""
+
+Print в функцие data_transmitter вернет "Test message".
+Print в функцие transmit_to_space вернет ничего, так как нет print 
+
+"""

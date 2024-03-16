@@ -3,4 +3,9 @@ def get_numbers():
 
     Returns: итерируемый объект с нужными числами
     """
-    raise NotImplementedError
+    list_name = []
+    for item in range(1000, 2001):
+        if (item % 7) == 0 and (item % 5) != 0:
+            list_name.append(item)
+
+    return list_name
